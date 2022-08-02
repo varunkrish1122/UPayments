@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "module": "esnext",
+    "target": "es2019",
+    "jsx": "react",
+    "noEmit": true,
+    "isolatedModules": false,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "preserveConstEnums": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./src",
+    "typeRoots": ["node_modules/@types", "./typings.d.ts"],
+    "paths": {
+      "^/*": ["../*"],
+      "@/*": ["*"],
+      "testUtils": ["./utils/testUtils"]
+    }
+  },
+  "typeRoots": ["node_modules/@types", "./typings.d.ts"],
+  "exclude": ["node_modules", "dist"]
+}
