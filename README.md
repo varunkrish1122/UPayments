@@ -30,4 +30,5 @@ You may also see any lint errors in the console.
 ### Created Some custom Hooks for reusability
 ### Configured Store Actions Reducers Sagas
 ### Added Debounce Mechanism to Improve performance
+### Added PlaceHolder as Loaders before loading it from API
 
