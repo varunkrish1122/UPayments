@@ -22,7 +22,7 @@ const ProductTile: React.FC<Props> = ({avatar = '', price, name = '', id}) => {
   return (
     <Link to={`productInfo/${id}`}>
       <div className="">
-        <span
+        {/* <span
           onClick={deleteHanadler}
           className="cursor-pointer flex justify-end relative top-10 right-2"
         >
@@ -30,7 +30,7 @@ const ProductTile: React.FC<Props> = ({avatar = '', price, name = '', id}) => {
             size={'32px'}
             color="#fca5a5"
           />
-        </span>
+        </span> */}
         <div className="bg-white p-4 rounded-2xl mb-4 shadow-2xl cursor-pointer flex justify-center">
           <img src={avatar} alt={name} className="w-2/3 h-80 object-contain" />
         </div>
